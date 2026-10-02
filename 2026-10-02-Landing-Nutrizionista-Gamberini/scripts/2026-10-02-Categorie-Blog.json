@@ -1,0 +1,26 @@
+{
+  "_nota": "Raggruppa le categorie WordPress in 5 macro-aree mostrate sul sito. Se Nicolò crea una nuova categoria in WordPress, aggiungila qui (il build la segnala nel log). Le categorie non mappate finiscono in 'benessere'.",
+  "aree": {
+    "sport": {
+      "label": "Sport & Performance",
+      "categorie": ["Attività fisica", "Sport da Combattimento", "Crossfit", "Finestra Anabolica", "Adolescente", "Infortunio", "Acqua", "Idratazione"]
+    },
+    "patologie": {
+      "label": "Patologie & Prevenzione",
+      "categorie": ["Cancro", "Pre-Diabete", "Colesterolo", "Tiroide", "Fibromialgia", "Allergie", "Nickel", "Obesità", "Grasso Viscerale", "Insulina", "Salute metabolica"]
+    },
+    "integratori": {
+      "label": "Integratori",
+      "categorie": ["Integratori", "Creatina", "HMB", "β-Alanina", "Betaina", "Caffeina", "Nitrati", "Omega 3", "Vitamine", "Farmaci", "Acidi grassi essenziali"]
+    },
+    "composizione": {
+      "label": "Composizione corporea",
+      "categorie": ["composizione corporea", "Muscolo Scheletrico"]
+    },
+    "benessere": {
+      "label": "Benessere & Stile di vita",
+      "categorie": ["Stile di Vita", "Benessere", "Felicità", "Salute mentale", "Sonno", "Lavoro", "Anziano", "Microbiota", "Fibra"]
+    }
+  },
+  "ignora": ["Alimentazione", "Uncategorized", "Senza categoria"]
+}

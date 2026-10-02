@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  {{robots}}
+  <link rel="canonical" href="{{canonical}}">
+  <meta property="og:type" content="{{ogType}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#12302b">
+  <link rel="icon" href="/img/2026-10-02-Gamberini-Favicon.jpg">
+  <link rel="alternate" type="application/rss+xml" title="Blog Dott. Nicolò Gamberini" href="/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/2026-10-02-Gamberini.css?v={{build}}">
+  <script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body data-page="{{page}}">
+  <a class="skip" href="#main">Salta al contenuto</a>
+  {{progress}}
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo" aria-label="Dott. Nicolò Gamberini — home">
+        <img src="/img/2026-10-02-Gamberini-Logo-Bianco.png" alt="" width="87" height="38">
+        <span>Dott. Nicolò Gamberini<small>Biologo Nutrizionista · Biella</small></span>
+      </a>
+      <button class="nav__toggle" type="button" aria-label="Apri menu" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav__menu" aria-label="Principale">
+        <a href="/#chi-sono">Chi sono</a>
+        <a href="/#servizi">Servizi</a>
+        <a href="/#mission">Mission</a>
+        <a href="/#dicono-di-me">Dicono di me</a>
+        <a href="/blog-nutrizione-benessere/"{{blogCurrent}}>Blog</a>
+        <a href="/#contatti" class="btn btn--primary">Prenota una consulenza</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+{{main}}
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <img class="footer__logo" src="/img/2026-10-02-Gamberini-Logo-Bianco.png" alt="Dott. Nicolò Gamberini" width="100" height="44">
+          <p>Biologo Nutrizionista a Biella. Nutrizione personalizzata per salute, patologie e performance sportiva.</p>
+        </div>
+        <div>
+          <h4>Sito</h4>
+          <ul><li><a href="/#chi-sono">Chi sono</a></li><li><a href="/#servizi">Servizi</a></li><li><a href="/#mission">Mission</a></li><li><a href="/#dicono-di-me">Dicono di me</a></li><li><a href="/blog-nutrizione-benessere/">Blog</a></li></ul>
+        </div>
+        <div>
+          <h4>Contatti</h4>
+          <ul><li><a href="tel:+393715912105">+39 371 591 2105</a></li><li><a href="mailto:nutrizionista.gamberini@gmail.com">nutrizionista.gamberini@gmail.com</a></li><li>Via Carso 2, Biella</li><li><a href="https://www.instagram.com/dr_gamberini_nutrizionista/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.linkedin.com/in/nicol%C3%B2-gamberini/" target="_blank" rel="noopener">LinkedIn</a></li></ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© {{year}} Dott. Nicolò Gamberini · P.IVA 02769780020</span>
+        <span><a href="#">Privacy policy</a> · <a href="#">Cookie policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/393715912105" target="_blank" rel="noopener" aria-label="Scrivi su WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+  </a>
+
+  {{scripts}}
+  <script src="/2026-10-02-Gamberini.js?v={{build}}"></script>
+</body>
+</html>

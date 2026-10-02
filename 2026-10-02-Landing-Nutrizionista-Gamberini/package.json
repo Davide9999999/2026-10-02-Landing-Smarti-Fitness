@@ -1,0 +1,12 @@
+{
+  "name": "nutrizionista-gamberini",
+  "private": true,
+  "type": "module",
+  "description": "Sito statico del Dott. Nicolò Gamberini, articoli da WordPress headless",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
+}
